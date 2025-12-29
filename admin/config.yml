@@ -2,6 +2,7 @@ backend:
   name: github
   repo: neuracampus/neuracampus.github.io
   branch: main
+  # Remove auth_type and app_id
   auth_type: implicit
   app_id: Ov23likxlNdvvldcNrnS
 
