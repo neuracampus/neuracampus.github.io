@@ -2,8 +2,8 @@ backend:
   name: github
   repo: neuracampus/neuracampus.github.io
   branch: main
-  # Remove auth_type and app_id
-  auth_type: implicit
+  base_url: https://your-netlify-site-name.netlify.app # This tells Decap where to find the login server
+  auth_endpoint: /external/auth/github
   app_id: Ov23likxlNdvvldcNrnS
 
 media_folder: "assets/uploads"
