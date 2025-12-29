@@ -2,6 +2,8 @@ backend:
   name: github
   repo: neuracampus/neuracampus.github.io
   branch: main
+  auth_type: implicit
+  app_id: Ov23likxlNdvvldcNrnS
 
 media_folder: "assets/uploads"
 public_folder: "/assets/uploads"
@@ -15,4 +17,3 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Content", name: "body", widget: "markdown" }
-
