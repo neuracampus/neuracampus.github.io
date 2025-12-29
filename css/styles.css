@@ -10919,7 +10919,6 @@ footer.footer {
 }
 .job-header {
   background-color: #f8f9fa;
-  background-image: url("../assets/img/xyz-logo.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 180px;
@@ -10935,4 +10934,13 @@ footer.footer {
 .job-header .container {
   position: relative;
   z-index: 1;
+}
+
+/* Company-specific backgrounds */
+.job-infosys {
+  background-image: url("../assets/img/infosys-logo.png");
+}
+
+.job-empower {
+  background-image: url("../assets/img/empower-logo.png");
 }
