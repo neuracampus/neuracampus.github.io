@@ -10917,24 +10917,31 @@ footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
+/* Job Header Base */
 .job-header {
-  background-color: #f8f9fa;
+  min-height: 220px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 180px;
+  background-size: cover; /* 👈 covers entire area */
   position: relative;
+  display: flex;
+  align-items: center;
 }
 
+/* Dark overlay for readability */
 .job-header::before {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: rgba(248, 249, 250, 0.92);
+  background: rgba(255, 255, 255, 0.85); /* light overlay */
 }
+
+/* Keep text above overlay */
 .job-header .container {
   position: relative;
   z-index: 1;
 }
+
 
 /* Company-specific backgrounds */
 .job-infosys {
