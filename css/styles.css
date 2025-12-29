@@ -10922,7 +10922,7 @@ footer.footer {
   min-height: 220px;
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover; /* 👈 covers entire area */
+  background-size: contain; /* 👈 covers entire area */
   position: relative;
   display: flex;
   align-items: center;
