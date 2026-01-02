@@ -5,3 +5,16 @@
 */
 // This file is intentionally blank
 // Use this file to add JavaScript to your project
+<script>
+fetch("/data/home-jobs.html")
+  .then(r => r.text())
+  .then(html => {
+    document.getElementById("home-jobs").innerHTML = html;
+  });
+
+fetch("/data/home-blogs.html")
+  .then(r => r.text())
+  .then(html => {
+    document.getElementById("home-blogs").innerHTML = html;
+  });
+</script>
