@@ -11182,4 +11182,11 @@ footer.footer {
   margin-bottom: 14px;
   object-fit: contain;
 }
-
+/* BLOG COVER */
+.blog-cover {
+  height: 180px;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background-size: cover;
+  background-position: center;
+}
