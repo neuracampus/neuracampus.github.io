@@ -10964,3 +10964,39 @@ footer.footer {
   visibility: visible !important;
   opacity: 1 !important;
 }
+/* ===== HOME JOB CARDS ===== */
+.job-card {
+  border-radius: 12px;
+  border: 1px solid #eaeaea;
+  transition: all 0.25s ease;
+  background: #ffffff;
+}
+
+.job-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
+}
+
+.job-card h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.job-card p {
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.job-card .btn {
+  margin-top: 10px;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  padding: 6px 14px;
+}
+
+/* Section spacing */
+#home-jobs {
+  margin-top: 30px;
+}
