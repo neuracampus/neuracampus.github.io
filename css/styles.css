@@ -10959,3 +10959,8 @@ footer.footer {
 .job-EY {
   background-image: url("../assets/img/EY-logo.png");
 }
+.card {
+  display: block !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
