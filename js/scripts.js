@@ -18,3 +18,28 @@ fetch("/data/home-blogs.html")
     document.getElementById("home-blogs").innerHTML = html;
   });
 </script>
+document.addEventListener("DOMContentLoaded", () => {
+  const homeJobsContainer = document.getElementById("home-jobs");
+  if (!homeJobsContainer) return;
+
+  fetch("jobs.html")
+    .then(res => res.text())
+    .then(html => {
+      const parser = new DOMParser();
+      const doc = parser.parseFromString(html, "text/html");
+
+      // Get all job cards from jobs page
+      const jobCards = doc.querySelectorAll(".job-card");
+
+      // Show only latest 3 jobs
+      jobCards.forEach((card, index) => {
+        if (index < 3) {
+          const col = document.createElement("div");
+          col.className = "col-lg-4 col-md-6 mb-4";
+          col.innerHTML = card.outerHTML;
+          homeJobsContainer.appendChild(col);
+        }
+      });
+    })
+    .catch(err => console.error("Home jobs load error:", err));
+});
