@@ -1,3 +1,32 @@
+/* ===== NeuraCampus Design System ===== */
+:root {
+  --primary: #2563eb;
+  --secondary: #1e293b;
+  --accent: #22c55e;
+  --bg: #f8fafc;
+  --card: #ffffff;
+  --text: #0f172a;
+  --muted: #64748b;
+  --radius: 14px;
+  --shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont;
+  line-height: 1.7;
+}
+
+h1, h2, h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+section {
+  padding: 80px 0;
+}
+
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Landing Page v6.0.6 (https://startbootstrap.com/theme/landing-page)
