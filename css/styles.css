@@ -11000,3 +11000,32 @@ footer.footer {
 #home-jobs {
   margin-top: 30px;
 }
+/* ===== COMPANY LOGO WATERMARK ===== */
+.job-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.job-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 120px;
+  opacity: 0.08;
+  pointer-events: none;
+}
+
+/* Logo mapping */
+.job-card[data-company="Infosys"]::before {
+  background-image: url("/assets/img/companies/infosys.png");
+}
+
+.job-card[data-company="Jio"]::before {
+  background-image: url("/assets/img/companies/jio.png");
+}
+
+.job-card[data-company="TCS"]::before {
+  background-image: url("/assets/img/companies/tcs.png");
+}
