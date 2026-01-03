@@ -44,6 +44,23 @@
 }
 
 body {
+  font-family: var(--nc-font-base);
+  color: var(--nc-text);
+  background-color: var(--nc-bg);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+p {
+  color: var(--nc-text-muted);
+  line-height: 1.7;
+}
+
+a {
+  transition: var(--nc-transition);
+}
+
+body {
   background: var(--bg);
   color: var(--text);
   font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont;
