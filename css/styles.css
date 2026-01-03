@@ -11663,3 +11663,42 @@ h1, h2, h3, h4, h5 {
 :root.dark .list-card {
   background: #0f172a;
 }
+/* Force dark background everywhere */
+:root.dark body {
+  background-color: var(--nc-bg);
+  color: var(--nc-text);
+}
+
+:root.dark section,
+:root.dark main,
+:root.dark .container {
+  background-color: transparent;
+}
+/* Navbar dark mode fix */
+:root.dark .navbar {
+  background-color: #0b1220 !important;
+  border-bottom: 1px solid var(--nc-border);
+}
+
+:root.dark .navbar-brand,
+:root.dark .nav-link {
+  color: var(--nc-text) !important;
+}
+
+:root.dark .nav-link:hover {
+  color: var(--nc-primary) !important;
+}
+
+:root.dark .navbar-toggler {
+  border-color: var(--nc-border);
+}
+/* Override Bootstrap bg-light in dark mode */
+:root.dark .bg-light {
+  background-color: var(--nc-bg-soft) !important;
+}
+:root.dark .list-card,
+:root.dark .job-card,
+:root.dark .blog-card {
+  background-color: #0f172a;
+  color: var(--nc-text);
+}
