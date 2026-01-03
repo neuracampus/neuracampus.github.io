@@ -11762,3 +11762,24 @@ section {
 .footer p {
   margin-bottom: 6px;
 }
+/* Hide broken blog images */
+.blog-content img:not([src]),
+.blog-content img[src=""] {
+  display: none;
+}
+.blog-content {
+  max-width: 760px;
+  margin: 0 auto;
+}
+
+.blog-content h1 {
+  margin-bottom: 1.5rem;
+}
+
+.blog-content h2 {
+  margin-top: 3rem;
+}
+
+.blog-content p + p {
+  margin-top: 1rem;
+}
