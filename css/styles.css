@@ -11393,3 +11393,12 @@ h1, h2, h3, h4, h5 {
 .section-title {
   letter-spacing: -0.02em;
 }
+.hero-section {
+  position: relative;
+  background: linear-gradient(
+    180deg,
+    #ffffff 0%,
+    #f8fafc 100%
+  );
+  overflow: hidden;
+}
