@@ -11381,3 +11381,15 @@ footer.footer {
   transform: translateY(-1px);
   box-shadow: var(--nc-shadow-sm);
 }
+h1, h2, h3, h4, h5 {
+  color: var(--nc-text);
+  letter-spacing: -0.015em;
+}
+
+.hero-title {
+  line-height: 1.15;
+}
+
+.section-title {
+  letter-spacing: -0.02em;
+}
