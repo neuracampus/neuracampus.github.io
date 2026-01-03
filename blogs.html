@@ -57,6 +57,9 @@
           <a class="nav-link" href="index.html#contact">Contact</a>
         </li>
       </ul>
+        <button id="themeToggle" class="btn btn-sm btn-outline-secondary ms-2">
+  🌙
+</button>
     </div>
   </div>
 </nav>
@@ -164,5 +167,24 @@
 
 <script src="js/scripts.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('themeToggle');
+
+  if (localStorage.getItem('nc-theme') === 'dark') {
+    root.classList.add('dark');
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      root.classList.toggle('dark');
+      localStorage.setItem(
+        'nc-theme',
+        root.classList.contains('dark') ? 'dark' : 'light'
+      );
+    });
+  }
+</script>
+
 </body>
 </html>
