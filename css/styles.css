@@ -11364,3 +11364,20 @@ footer.footer {
   transform: translateY(-4px);
   box-shadow: var(--nc-shadow-md);
 }
+.btn {
+  border-radius: var(--nc-radius-md);
+  font-weight: 600;
+  transition: var(--nc-transition);
+}
+
+.btn-primary {
+  background-color: var(--nc-primary);
+  border-color: var(--nc-primary);
+}
+
+.btn-primary:hover {
+  background-color: #1d4ed8;
+  border-color: #1d4ed8;
+  transform: translateY(-1px);
+  box-shadow: var(--nc-shadow-sm);
+}
