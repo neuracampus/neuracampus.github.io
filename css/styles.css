@@ -11625,3 +11625,41 @@ h1, h2, h3, h4, h5 {
     padding: 18px;
   }
 }
+/* =========================
+   Dark Mode Theme
+   ========================= */
+
+:root.dark {
+  --nc-bg: #0b1220;
+  --nc-bg-soft: #0f172a;
+  --nc-text: #e5e7eb;
+  --nc-text-muted: #9ca3af;
+  --nc-border: #1f2937;
+  --nc-primary: #60a5fa;
+  --nc-primary-soft: #1e3a8a;
+
+  --nc-shadow-sm: 0 1px 2px rgba(0,0,0,0.4);
+  --nc-shadow-md: 0 10px 30px rgba(0,0,0,0.45);
+  --nc-shadow-lg: 0 25px 60px rgba(0,0,0,0.55);
+}
+
+/* backgrounds in dark */
+:root.dark body {
+  background-color: var(--nc-bg);
+}
+
+:root.dark .hero-section {
+  background: linear-gradient(180deg, #0b1220 0%, #0f172a 100%);
+}
+
+:root.dark .trust-section,
+:root.dark .section-padding {
+  background-color: var(--nc-bg);
+}
+
+:root.dark .job-card,
+:root.dark .blog-card,
+:root.dark .feature-card,
+:root.dark .list-card {
+  background: #0f172a;
+}
