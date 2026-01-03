@@ -251,5 +251,22 @@
     </p>
   </div>
 </footer>
+            <script>
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('themeToggle');
+
+  if (localStorage.getItem('nc-theme') === 'dark') {
+    root.classList.add('dark');
+  }
+
+  toggleBtn.addEventListener('click', () => {
+    root.classList.toggle('dark');
+    localStorage.setItem(
+      'nc-theme',
+      root.classList.contains('dark') ? 'dark' : 'light'
+    );
+  });
+</script>
+
     </body>
 </html>
