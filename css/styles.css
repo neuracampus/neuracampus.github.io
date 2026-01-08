@@ -11935,3 +11935,10 @@ section {
 .blog-card a:hover {
   text-decoration: underline;
 }
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  filter: invert(0);
+}
