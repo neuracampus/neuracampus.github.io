@@ -11942,3 +11942,18 @@ section {
 .navbar-toggler-icon {
   filter: invert(0);
 }
+.blog-content h1,
+.blog-content h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.blog-content p,
+.blog-content li {
+  font-size: 1.05rem;
+  line-height: 1.8;
+}
+
+.blog-content ul {
+  margin-left: 1.2rem;
+}
