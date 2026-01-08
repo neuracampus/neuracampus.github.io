@@ -11806,3 +11806,124 @@ section {
 .footer-copy {
   font-size: 13px;
 }
+/* ================= BLOG STYLES ================= */
+
+.blog-content {
+  line-height: 1.75;
+  font-size: 1.05rem;
+  color: #1f2937;
+}
+
+/* Headings */
+.blog-content h1 {
+  font-size: 2.2rem;
+  line-height: 1.3;
+  margin-bottom: 1rem;
+}
+
+.blog-content h2 {
+  font-size: 1.6rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.blog-content h3 {
+  font-size: 1.3rem;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Paragraphs */
+.blog-content p {
+  margin-bottom: 1.1rem;
+}
+
+/* Images inside blog */
+.blog-content img {
+  width: 100%;
+  height: auto;
+  border-radius: 14px;
+  margin: 1.8rem 0;
+}
+
+/* Lists */
+.blog-content ul {
+  padding-left: 1.2rem;
+  margin: 1.2rem 0;
+}
+
+.blog-content li {
+  margin-bottom: 0.5rem;
+}
+
+/* Meta text */
+.blog-meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Links */
+.blog-content a {
+  color: #0d6efd;
+  text-decoration: none;
+}
+
+.blog-content a:hover {
+  text-decoration: underline;
+}
+
+/* Divider */
+.blog-content hr {
+  border: none;
+  border-top: 1px solid #e5e7eb;
+  margin: 2.5rem 0;
+}
+
+/* ================= BLOG LIST PAGE ================= */
+
+.blog-card {
+  border-radius: 16px;
+  border: 1px solid #e5e7eb;
+  transition: all 0.25s ease;
+  background: #ffffff;
+}
+
+.blog-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+}
+
+.blog-card img {
+  border-radius: 16px 16px 0 0;
+  height: 200px;
+  object-fit: cover;
+}
+
+.blog-card h3,
+.blog-card h5 {
+  margin-top: 0.8rem;
+}
+
+.blog-card p {
+  color: #4b5563;
+  font-size: 0.95rem;
+}
+
+/* ================= DARK MODE ================= */
+
+:root.dark .blog-content {
+  color: #e5e7eb;
+}
+
+:root.dark .blog-meta {
+  color: #9ca3af;
+}
+
+:root.dark .blog-card {
+  background: #111827;
+  border-color: #1f2937;
+}
+
+:root.dark .blog-content a {
+  color: #60a5fa;
+}
