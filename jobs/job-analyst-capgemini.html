@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Analyst at Capgemini | NeuraCampus</title>
+<meta name="description" content="Apply for Analyst at Capgemini. Verified off-campus job.">
+<meta name="robots" content="index, follow">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
+  <div class="container">
+    <a class="navbar-brand fw-bold" href="../index.html">NeuraCampus</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="../index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="../jobs.html">Jobs</a></li>
+        <li class="nav-item"><a class="nav-link" href="../about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle"
+        class="btn btn-sm btn-outline-secondary ms-2">Dark Mode</button>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container my-5">
+  <h1>Analyst</h1>
+
+  <p><strong>Company:</strong> Capgemini</p>
+  <p><strong>Location:</strong> Gurgaon</p>
+  <p><strong>Qualification:</strong> BE/ ME/ Mtech</p>
+  <p><strong>Experience:</strong> Fresher</p>
+  <p><strong>CTC:</strong> 4 LPA</p>
+  <p><strong>Last Date:</strong> 2/15/2026</p>
+
+  <h2 class="mt-4">Job Description</h2>
+  <p>At Capgemini Invent, we believe difference drives change. As inventive transformation consultants, we blend our strategic, creative and scientific capabilities,?collaborating closely with clients to deliver cutting-edge solutions. Join us to drive transformation tailored to our client?s challenges of today and tomorrow.?Informed and validated by science and data. Superpowered by creativity and design. All underpinned by technology created with purpose.</p>
+
+  <a href="https://careers.capgemini.com/job/Gurgaon-Analyst/1271374301/" target="_blank" rel="nofollow noopener"
+     class="btn btn-success mt-3">
+     Apply on Official Website
+  </a>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+        <script>
+  const root = document.documentElement;
+  const toggleBtn = document.getElementById('themeToggle');
+
+  // Apply saved theme on load
+  if (localStorage.getItem('nc-theme') === 'dark') {
+    root.classList.add('dark');
+  }
+
+  // Toggle theme
+  if (toggleBtn) {
+    toggleBtn.addEventListener('click', () => {
+      root.classList.toggle('dark');
+      localStorage.setItem(
+        'nc-theme',
+        root.classList.contains('dark') ? 'dark' : 'light'
+      );
+    });
+  }
+</script>
+</body>
+</html>
