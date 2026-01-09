@@ -2,14 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Career Blogs for Freshers | NeuraCampus</title>
-  <meta name="description" content="Career guidance, off-campus hiring tips, and job preparation blogs for Indian freshers.">
+
+  <title>Career Blogs & Job Guides for Freshers | NeuraCampus</title>
+
+  <meta name="description"
+        content="Career blogs, off-campus hiring guides, interview preparation tips, and job insights for Indian freshers.">
+
   <meta name="robots" content="index, follow">
+
+  <link rel="canonical" href="https://neuracampus.online/blogs.html">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
-  <!-- Your Main CSS -->
+  <!-- Main CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 
@@ -203,17 +209,6 @@
   }
 </script>
   
-<script>
-  document.querySelectorAll('.blog-card').forEach(card => {
-    const text = card.innerText || '';
-    const words = text.trim().split(/\s+/).length;
-    const minutes = Math.max(1, Math.ceil(words / 200));
-    const rt = document.createElement('span');
-    rt.className = 'reading-time';
-    rt.innerText = `${minutes} min read`;
-    card.querySelector('.meta')?.appendChild(rt);
-  });
-</script>
 <nav class="mt-5">
   <ul class="pagination justify-content-center">
     <li class="page-item active">
