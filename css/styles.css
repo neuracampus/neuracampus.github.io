@@ -12053,3 +12053,18 @@ header::before,
 header::after {
   pointer-events: none !important;
 }
+/* === Clickable Blog Card (Final Fix) === */
+.blog-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.blog-card-link:hover .blog-card {
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.12);
+}
+
+.blog-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
