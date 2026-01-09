@@ -12079,3 +12079,7 @@ header::after {
 .dark .reading-time {
   background: rgba(255,255,255,0.12);
 }
+.page-link {
+  border-radius: 8px;
+  margin: 0 4px;
+}
