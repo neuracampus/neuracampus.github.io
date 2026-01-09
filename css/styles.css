@@ -11995,3 +11995,61 @@ section {
   background-color: #60a5fa;
   color: #0b1220;
 }
+/* ================= BLOG CARD HARD FIX ================= */
+
+/* Ensure blog card is clickable */
+.blog-card {
+  position: relative;
+  z-index: 2;
+  pointer-events: auto;
+}
+
+/* Ensure links are clickable */
+.blog-card a {
+  position: relative;
+  z-index: 3;
+  pointer-events: auto;
+}
+
+/* Light mode text */
+.blog-card h5,
+.blog-card p,
+.blog-card span {
+  color: #111827;
+}
+
+/* Dark mode card */
+.dark .blog-card {
+  background-color: #0b1220;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+/* Dark mode text FIX */
+.dark .blog-card h5 {
+  color: #f9fafb !important;
+}
+
+.dark .blog-card p {
+  color: #d1d5db !important;
+}
+
+.dark .blog-card span {
+  color: #9ca3af !important;
+}
+
+/* Read More button FIX */
+.dark .blog-card .btn-outline-primary {
+  color: #60a5fa !important;
+  border-color: #60a5fa !important;
+}
+
+.dark .blog-card .btn-outline-primary:hover {
+  background-color: #60a5fa;
+  color: #0b1220 !important;
+}
+
+/* Remove any overlay blocking clicks */
+header::before,
+header::after {
+  pointer-events: none !important;
+}
