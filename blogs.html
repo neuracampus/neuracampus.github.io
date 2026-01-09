@@ -163,6 +163,18 @@
     });
   }
 </script>
+  
+<script>
+  document.querySelectorAll('.blog-card').forEach(card => {
+    const text = card.innerText || '';
+    const words = text.trim().split(/\s+/).length;
+    const minutes = Math.max(1, Math.ceil(words / 200));
+    const rt = document.createElement('span');
+    rt.className = 'reading-time';
+    rt.innerText = `${minutes} min read`;
+    card.querySelector('.meta')?.appendChild(rt);
+  });
+</script>
 
 </body>
 </html>
