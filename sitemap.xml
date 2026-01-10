@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
 
+  <!-- CORE PAGES -->
   <url>
     <loc>https://neuracampus.online/</loc>
   </url>
@@ -14,11 +15,46 @@
   </url>
 
   <url>
-    <loc>https://neuracampus.online/job-infosys.html</loc>
+    <loc>https://neuracampus.online/about.html</loc>
   </url>
 
   <url>
-    <loc>https://neuracampus.online/job-empower.html</loc>
+    <loc>https://neuracampus.online/contact.html</loc>
+  </url>
+
+  <url>
+    <loc>https://neuracampus.online/privacy.html</loc>
+  </url>
+
+  <url>
+    <loc>https://neuracampus.online/terms.html</loc>
+  </url>
+
+  <!-- BLOG POSTS -->
+  <url>
+    <loc>https://neuracampus.online/blogs/highest-paying-entry-level-jobs-india-2025.html</loc>
+  </url>
+
+  <url>
+    <loc>https://neuracampus.online/blogs/how-indian-freshers-get-off-campus-jobs-2025.html</loc>
+  </url>
+
+  <url>
+    <loc>https://neuracampus.online/blogs/how-to-prepare-for-off-campus-interviews-2025.html</loc>
+  </url>
+
+  <url>
+    <loc>https://neuracampus.online/blogs/top-off-campus-companies-hiring-freshers-2025.html</loc>
+  </url>
+
+
+  <!-- JOB PAGES -->
+  <url>
+    <loc>https://neuracampus.online/jobs/job-graduate-trainee-calix.html</loc>
+  </url>
+
+  <url>
+    <loc>https://neuracampus.online/jobs/job-international-customer-support-bangalore-infosys.html</loc>
   </url>
 
 </urlset>
